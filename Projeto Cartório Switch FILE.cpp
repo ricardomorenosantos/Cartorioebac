@@ -130,7 +130,8 @@ int main()
 		printf("Escolha a opção desejada do menu: \n\n");
 		printf("\t1 - Incluir nomes \n");
 		printf("\t2 - Consultar os nomes \n");
-		printf("\t3 - Excluir nomes \n\n"); 
+		printf("\t3 - Excluir nomes \n\n");
+		printf("\t4 - Sair do sistema\n\n");
 		printf("Opção: "); 
 		//Fim do menu
 
@@ -152,6 +153,11 @@ int main()
 			case 3: 
 			excluir();
 			break; //encerra
+			
+			case 4:
+				printf("Obrigado por utilizar o sistema!\n");
+				return 0;
+				break;
 			
 			default:
 			printf("Essa opção não está disponível!\n");
